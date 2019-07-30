@@ -11,7 +11,6 @@ def CatchPICFromVideo(window_name, camera_idx, catch_pic_num, path_name):
     cap = cv2.VideoCapture(camera_idx)
 
     #告诉OpenCV使用人脸识别分类器
-    # one line for git test
     pathforcascade = '/Users/kim/tensorflow-learn/haarcascade_frontalface_default.xml'
     classfier = cv2.CascadeClassifier(pathforcascade)
 
